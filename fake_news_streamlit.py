@@ -32,7 +32,7 @@ st.write("Enter a news article below to check if it's Fake or Real.")
 news_input = st.text_area("Enter News Text:")
 if st.button("Detect Fake News"):
     if news_input:
-        _text(news_input)
+        cleaned_text = clean_text(news_input)
         transformed_text = vectorization.transform([cleaned_text])
 
         pred_LR = LR.predict(transformed_text)[0]
