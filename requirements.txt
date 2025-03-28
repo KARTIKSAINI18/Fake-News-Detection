@@ -1,5 +1,14 @@
 streamlit
-pandas
 scikit-learn
+pandas
 numpy
-pickle5
+nltk
+re
+string
+pickle-mixin
+joblib
+requests
+beautifulsoup4
+lxml
+matplotlib
+seaborn
